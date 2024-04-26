@@ -1,0 +1,7 @@
+ python3 -m venv venv     
+ pip install ipython   
+ pip3 install "fastapi{all}" ipython   
+
+ . venv\Scripts\Activate 
+ ipython  
+ uvicorn main:app --reload 
